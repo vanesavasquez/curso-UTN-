@@ -8,3 +8,6 @@ harina
 leche
 yogurt
 ravioles
+ñoquis
+tapas de empanadas
+tartas

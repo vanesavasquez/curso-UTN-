@@ -1,0 +1,16 @@
+h1, h2{
+    color: darkmagenta;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.preguntascv{
+    color:orange;
+    font-family: ;
+}
+p{
+    color: grey;
+    font-weight:800;
+}
+.listaserieypeli{
+    color:grey;
+    font-weight: 500;
+}

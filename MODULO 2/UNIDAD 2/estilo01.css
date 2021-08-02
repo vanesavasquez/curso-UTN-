@@ -1,0 +1,33 @@
+.contenedor{
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    /* position: static; */
+    background-color: burlywood;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}
+.uno, .dos, .tres {
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uno{
+    
+    background-color: red;
+
+}
+.dos{
+    background-color: blue;
+}
+.tres{
+    background-color: green;
+}

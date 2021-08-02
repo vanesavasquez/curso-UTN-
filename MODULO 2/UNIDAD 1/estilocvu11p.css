@@ -48,7 +48,11 @@ i{
 .cajadatos h2{
     color: white;
 }
+.redessociales{
+    text-align: center;
+}
 .redessociales i{
     color: gray;
     font-size: 40px;
+    
 }

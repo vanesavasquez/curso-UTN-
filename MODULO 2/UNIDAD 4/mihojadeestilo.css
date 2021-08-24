@@ -2,9 +2,36 @@
 font-family: 'Poppins', sans-serif; */
 #nombreweb{
     font-family: 'Just Another Hand', cursive;
-    font-size: 50px;
+    font-size: 70px;
     color:dimgray;
+
+    animation-name: MiAnimacion;
+     animation-duration: 4s;  
 }
+@keyframes MiAnimacion {
+    from {color: white;}
+    to {color:dimgray;}
+}
+
 .navbar{
     background-color:  white!important;
+}
+.segundo_contenedor, .tercer_contenedor{
+    padding-top: 80px;
+    text-align: center;
+}
+.segundo_contenedor, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.tercer_contenedor,h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.tercer_contenedor, p{
+    font-weight: 300;
+}
+.contenedor_proyecto{
+    margin-bottom: 50px;
 }

@@ -12,10 +12,13 @@ font-family: 'Poppins', sans-serif; */
     from {color: white;}
     to {color:dimgray;}
 }
-
-.navbar{
-    background-color:  white!important;
+.nav-item, a{
+    padding: 10px !important;
+    letter-spacing: 5px !important;
 }
+/* .navbar{
+    background-color:  white!important;
+} */
 .segundo_contenedor, .tercer_contenedor{
     padding-top: 80px;
     text-align: center;

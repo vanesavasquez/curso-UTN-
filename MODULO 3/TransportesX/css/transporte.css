@@ -1,0 +1,21 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 20px; */
+    font-weight: 400;
+}
+/* .contenedor_header, img{
+    width: 30%;
+} */
+.contenedor_header{
+    /* display: inline-flex; */
+    background-color:#2e64a1;
+    padding: 1em 0;
+    /* 1em ---------- 16px
+        0.5em----------- x
+    */
+}

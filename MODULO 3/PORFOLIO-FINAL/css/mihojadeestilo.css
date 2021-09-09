@@ -1,0 +1,67 @@
+/* font-family: 'Just Another Hand', cursive;
+font-family: 'Poppins', sans-serif; */
+#nombreweb{
+    font-family: 'Just Another Hand', cursive;
+    font-size: 70px;
+    color:dimgray;
+
+    animation-name: MiAnimacion;
+     animation-duration: 4s;  
+}
+@keyframes MiAnimacion {
+    from {color: white;}
+    to {color:dimgray;}
+}
+.nav-item{
+    padding-left: 30px;
+    
+}
+.active{
+    color: #ff0000 !important;
+     /* amarillo #ffff00 */
+}
+.destacar, .nav-item, a {
+    letter-spacing: 5px;
+    color: dimgray !important;
+}
+.navbar{
+    background-color:  white!important;
+}
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.segundo_contenedor {
+    padding-top: 50px;
+    text-align: left;
+}
+.tercer_contenedor{
+    padding-top: 80px;
+}
+.segundo_contenedor span{
+    color: #ffff00;
+    /* font-size: 120px; */
+   
+}
+
+.segundo_contenedor, h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 110%;
+}
+.tercer_contenedor,h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.tercer_contenedor, p{
+    font-weight: 300;
+}
+.contenedor_proyecto{
+    margin-bottom: 50px;
+}
+/* .descripcion{
+    margin-left: 20px;
+     margin-right: 20px;
+} */

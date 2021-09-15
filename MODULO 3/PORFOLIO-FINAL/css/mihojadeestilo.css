@@ -1,11 +1,7 @@
 /* font-family: 'Just Another Hand', cursive;
 font-family: 'Poppins', sans-serif; */
 #nombreweb{
-    font-family: 'Just Another Hand', cursive;
-    font-size: 70px;
-    color:dimgray;
-
-    animation-name: MiAnimacion;
+        animation-name: MiAnimacion;
      animation-duration: 4s;  
 }
 @keyframes MiAnimacion {
@@ -16,9 +12,15 @@ font-family: 'Poppins', sans-serif; */
     padding-left: 30px;
     
 }
+.nav-item:hover{
+    text-shadow: #000 1px 0 20px;
+}
 .active{
-    color: #ff0000 !important;
+    color: #ffff00 !important;
      /* amarillo #ffff00 */
+     /* text-shadow: dimgray 1px 0 5px;   */
+     font-family: 'Poppins', sans-serif; 
+     font-weight:bold;
 }
 .destacar, .nav-item, a {
     letter-spacing: 5px;
@@ -36,7 +38,7 @@ font-family: 'Poppins', sans-serif; */
     text-align: left;
 }
 .tercer_contenedor{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .segundo_contenedor span{
     color: #ffff00;
@@ -54,14 +56,36 @@ font-family: 'Poppins', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     padding-bottom: 25px;
+    color: #7eb999;
 }
+#diem{
+    color: rgba(24,33,114)!important;
+}
+.bototi{
+    color: ;
+}
+
 .tercer_contenedor, p{
     font-weight: 300;
 }
 .contenedor_proyecto{
     margin-bottom: 50px;
 }
-/* .descripcion{
-    margin-left: 20px;
-     margin-right: 20px;
-} */
+.mifooter{
+    background-color: #ffff00;
+    padding: 50px;
+    text-align: center;
+    
+    font-size: 15 px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+.mifooter, .copi_footer{
+    padding-top: 100px;
+    color: white !important;
+}
+.mifooter p{
+    color: #000;
+    font-weight: lighter;
+    padding-top: 30px;
+}

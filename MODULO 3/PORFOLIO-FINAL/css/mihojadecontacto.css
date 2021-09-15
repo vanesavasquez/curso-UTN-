@@ -1,0 +1,43 @@
+/* font-family: 'Just Another Hand', cursive;
+font-family: 'Poppins', sans-serif; */
+.m-b3,label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: dimgray;
+}
+.botonenviar{
+    background-color: #ffff00;
+    color: dimgray;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.caja_iconos {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.bi-linkedin{
+    color: #0e76a8 !important;
+}
+.bi-telegram{
+    color: #0088cc !important;
+}
+.bi-facebook{
+    color: #3b5998;
+}
+.col-2, h3{
+    color: dimgray;
+    font-weight: 400;
+}
+ul{
+    padding-bottom: 30px;
+}
+.tercer_contenedor{
+    padding-bottom: 100px;
+}
+.segundo_contenedor{
+    
+    border-bottom: 2px solid #ffff00  ;
+}

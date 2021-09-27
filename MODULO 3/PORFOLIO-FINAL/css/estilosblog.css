@@ -1,0 +1,19 @@
+body{   
+    font-size: 16px;
+}
+.tercer_contenedor,h3{
+    font-size: 1.5em;
+    color:dimgray;
+}
+p{
+    font-size: 0.9em;
+}
+.tercer_contenedor .contenedorblog{
+    padding-top: 8% !important;
+}
+.unarticulo{
+    padding: 1.5%;
+    border: 0.02em solid rgba(105, 105, 105, 0.178);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(105, 105, 105, 0.178);
+}

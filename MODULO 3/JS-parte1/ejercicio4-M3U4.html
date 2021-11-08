@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Unidad 4: Javascript (parte 2)</title>
+    <link rel="stylesheet" href="estiloejercicio4.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="cuadrado rojo" id="cuadrado"></div>
+        <div class="cuadrado azul" id="cuadrado"></div>
+        <div class="cuadrado verde" id="cuadrado"></div>
+    </section>
+    <script>
+        var cuadrado= document.getElementsByClassName ('cuadrado');
+        //console.log(cuadrado.length);
+        
+        for(var i=0; i< cuadrado.length;i++ ){
+            cuadrado[i].addEventListener("click", function(){ 
+                if(this.style!='background-color: #000;')
+                this.style = 'background-color: #000;';
+            })
+        }
+        
+    </script>
+    <section >
+        <form action="">
+            <textarea name="textodelusuario" id="mitexto" cols="30" rows="10"></textarea>
+            <button id="miboton" value="mivalor">Contar</button>
+        </form>
+
+
+        <script>
+            var mitexto= document.getElementById ('mitexto');
+            var miboton= document.getElementById ('miboton');
+            
+            // if(   )
+            miboton.addEventListener('click', function(){
+                alert("este es un texto de :"+ mitexto.length);
+            });
+            
+            
+        </script>
+    </section>
+    <section>
+        <button id="aprobaron">Alumnos que aprobaron</button>
+        <script>
+            var alumnos = [
+
+{
+
+  nombre: 'Juan Gomez',
+
+  nota: 7
+
+}, {
+
+  nombre: 'Pedro Rodriguez',
+
+  nota: 4
+
+}, {
+
+  nombre: 'Roxana García',
+
+  nota: 8
+
+}, {
+
+  nombre: 'Luciano Lopez',
+
+  nota: 5
+
+}, {
+
+  nombre: 'Fernanda Gimenez',
+
+  nota: 6
+
+}, {
+
+  nombre: 'Florencia Martinez',
+
+  nota: 10
+
+}, {
+
+  nombre: 'Raul Sanchez',
+
+  nota: 7
+
+}, {
+
+  nombre: 'Sandra Figueroa',
+
+  nota: 8
+
+}
+
+];
+console.log(alumnos);
+var miboton= document.getElementById('aprobaron');
+// console.log(miboton);
+
+miboton.addEventListener('click',function(){
+    const aprobados= alumnos.filter(alumnos => alumnos.nota >= 7);
+    console.log(aprobados);
+})
+</script>
+    </section>
+</body>
+</html>

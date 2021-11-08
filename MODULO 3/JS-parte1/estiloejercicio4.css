@@ -1,0 +1,22 @@
+div{
+    width: 200px;
+    height: 200px;    
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid aquamarine;
+}
+section{
+    padding-top: 3rem;
+}
+.cuadrado:hover{
+    background-color: aquamarine;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: blue;
+}
+.verde{
+    background-color: greenyellow;
+}

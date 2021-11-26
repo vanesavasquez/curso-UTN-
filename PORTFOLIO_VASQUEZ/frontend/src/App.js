@@ -1,24 +1,23 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-//import {Switch} from "react-router";
-import Nav from './components/layouts/Nav';
-import Footer from './components/layouts/Footer';
-import HomePage from './pages/HomePage';
-import ContactoPage from './pages/ContactoPage';
-import BlogPage from './pages/BlogPage';
-import VermasPage from "./pages/VermasPage";
-
+import Nav from "./components/layout/Nav";
+import Footer from "./components/layout/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import VerMasPage from "./pages/VerMasPage";
+import HazloTuPage from "./pages/HazloTuPage";
+import ContactoPage from "./pages/ContactoPage";
 function App() {
-  return (    
-       <div>    
-         <Nav/>
-         <Routes>   
-          <Route path="/" exact element={<HomePage/>} />
-          <Route path="/Hazlotú" exact element={<BlogPage/>} />
-          <Route path="/Contacto" exact element={<ContactoPage/>} />
-          <Route path="/Vermas" exact element={<VermasPage/>} />
-        </Routes>
-        <Footer/>
-      </div> 
+  return (
+    <Router>
+      <Nav/>
+      <Routes>
+        <Route path="/" exact element={<HomePage/>}/>
+        <Route path="/vermas" exact element={<VerMasPage/>}/>
+        <Route path="/hazlotu" exact element={<HazloTuPage/>}/>
+        <Route path="/contacto" exact element={<ContactoPage/>}/>
+         
+      </Routes>
+      <Footer/>
+    </Router>   
   );
 }
 

@@ -1,0 +1,18 @@
+.mifooter{
+    background-color: #ffff00;
+    padding: 50px;
+    text-align: center;
+    
+    font-size: 15 px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+.mifooter, .copi_footer{
+    padding-top: 100px;
+    color: white !important;
+}
+.mifooter p{
+    color: #000;
+    font-weight: lighter;
+    padding-top: 30px;
+}

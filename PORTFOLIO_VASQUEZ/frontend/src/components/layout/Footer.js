@@ -1,5 +1,6 @@
 import React from 'react';
 import { isValidElement } from 'react';
+import '../../styles/components/layout/Footer.css'
 const Footer = (props)=>{
     return(
         <footer className="mifooter" >

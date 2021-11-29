@@ -1,0 +1,30 @@
+#nombreweb{
+    animation-name: MiAnimacion;
+ animation-duration: 4s;  
+}
+@keyframes MiAnimacion {
+from {color: white;}
+to {color:dimgray;}
+}
+
+.nav-item{
+padding-left: 30px;
+
+}
+.nav-item:hover{
+text-shadow: #000 1px 0 20px;
+}
+.active{
+color: #ffff00 !important;
+ /* amarillo #ffff00 */
+ /* text-shadow: dimgray 1px 0 5px;   */
+ font-family: 'Poppins', sans-serif; 
+ font-weight:bold;
+}
+.destacar, .nav-item, a {
+letter-spacing: 5px;
+color: dimgray !important;
+}
+.navbar{
+background-color:  white!important;
+}

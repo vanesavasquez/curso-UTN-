@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/components/pages/HazloTuPage.css'
 const HazloTuPage=(props)=>{
     return(
         <main>

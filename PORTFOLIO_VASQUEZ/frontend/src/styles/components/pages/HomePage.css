@@ -51,3 +51,14 @@ p{
 .contenedor_proyecto{
     margin-bottom: 50px;
 }
+.thumbnail{
+    text-align: center;
+}
+.container, .row, .titulo3{
+    text-align: left;
+    padding-top: 2rem;
+    color: dimgray !important
+}
+.skill{
+    padding-bottom: 3rem;
+}

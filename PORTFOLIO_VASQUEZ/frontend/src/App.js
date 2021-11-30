@@ -6,6 +6,7 @@ import VerMasPage from "./pages/VerMasPage";
 import HazloTuPage from "./pages/HazloTuPage";
 import ContactoPage from "./pages/ContactoPage";
 import './App.css';
+import './styles/components/pages/fuente.css';
 function App() {
   return (
     <Router>

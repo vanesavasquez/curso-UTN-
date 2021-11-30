@@ -9,27 +9,8 @@
 .tercer_contenedor{
   padding-top: 100px;
 }
-.segundo_contenedor span{
-  color: #ffff00;
-  /* font-size: 120px; */
- 
-}
 
-.segundo_contenedor, h2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 150px;
-  line-height: 110%;
-}
-.tercer_contenedor,h3{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  padding-bottom: 25px;
-  color: #7eb999;
-}
-.tercer_contenedor, p{
-  font-weight: 300;
-}
+
 .contenedor_proyecto{
   margin-bottom: 50px;
 }

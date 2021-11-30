@@ -24,6 +24,10 @@ color: #ffff00 !important;
 .destacar, .nav-item, a {
 letter-spacing: 5px;
 color: dimgray !important;
+
+}
+a:active{
+     text-decoration:none !important; /* no me lo toma */
 }
 .navbar{
 background-color:  white!important;

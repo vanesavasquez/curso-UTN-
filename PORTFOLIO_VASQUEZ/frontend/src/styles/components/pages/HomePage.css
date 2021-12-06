@@ -62,3 +62,8 @@ p{
 .skill{
     padding-bottom: 3rem;
 }
+.nombreskill:hover{
+     color: #ffff00;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold !important;
+}

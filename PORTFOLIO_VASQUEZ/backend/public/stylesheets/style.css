@@ -1,0 +1,34 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav-item{
+  padding-left: 30px;
+  
+  }
+  .nav-item:hover{
+  text-shadow: #000 1px 0 20px;
+  }
+  .active{
+  color: #ffff00 !important;
+   /* amarillo #ffff00 */
+   /* text-shadow: dimgray 1px 0 5px;   */
+   font-family: 'Poppins', sans-serif; 
+   font-weight:bold;
+  }
+  .destacar, .nav-item, a {
+  letter-spacing: 5px;
+  color: dimgray !important;
+  
+  }
+  a:active{
+       text-decoration:none !important; /* no me lo toma */
+  }
+  .navbar{
+  background-color:  white!important;
+  }

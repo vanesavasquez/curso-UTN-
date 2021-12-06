@@ -48,7 +48,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img clasName="" src="img/illustrator.png" alt="Illustrator" width="50%" />
                     <div className="caption">
-                      <p>Illustrator</p>
+                      <p className="nombreskill">Illustrator</p>
                     </div>            
                 </div>
               </div>
@@ -57,7 +57,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img className="" src="img/bootstrap.png" alt="Bootstrap" width="50%"/>
                     <div className="caption">
-                      <p>Bootstrap</p>
+                      <p className="nombreskill">Bootstrap</p>
                     </div>            
                 </div>
               </div>
@@ -66,7 +66,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img className="" src="img/html-5.png" alt="HTML 5" width="50%" />
                     <div className="caption">
-                      <p>HTML5</p>
+                      <p className="nombreskill">HTML5</p>
                     </div>            
                 </div>
               </div>
@@ -75,7 +75,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img className="" src="img/css-3.png" alt="CSS3" width="50%" />
                     <div className="caption">
-                      <p>CSS3</p>
+                      <p className="nombreskill">CSS3</p>
                     </div>            
                 </div>
               </div>
@@ -84,7 +84,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img className="" src="img/javascript.png" alt="JavaScript" width="50%"/>
                     <div className="caption">
-                      <p>JS</p>
+                      <p className="nombreskill">JS</p>
                     </div>            
                 </div>
               </div>
@@ -93,7 +93,7 @@ const HomePage = (props)=>{
                 <div className="thumbnail">            
                     <img className="img-responsive" src="img/wordpress.png" alt="Wordpress" width="50%"/>
                     <div className="caption">
-                      <p>Wordpress</p>
+                      <p className="nombreskill">Wordpress</p>
                     </div>            
                 </div>
               </div>

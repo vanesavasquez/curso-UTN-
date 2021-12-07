@@ -17,11 +17,16 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">HOME</a>
-            <a class="navbar-brand" href="/vermas">VER MÁS</a>
-            <a class="navbar-brand" href="/blog">BLOG </a>      
+            <div class="col-md-4 d-grid gap-2 d-md-flex justify-content-md-end">
+            <p>hola {{usuario}}</p>
+            <a href="/admin/login/logout" class="btn btn-secondary"  role="button" >Cerrar sesion</a>
+          </div>
+                 
         </div>
+       
       </nav>
 </div>
+
     {{{body}}}
   </body>
 </html>

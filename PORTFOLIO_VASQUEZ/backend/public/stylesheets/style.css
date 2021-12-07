@@ -46,4 +46,21 @@ a {
     size: 5px;
     margin: auto;
   }
-  
+  .filaentradas{
+    padding-top: 3rem;
+}
+.filaentradas, h3{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 5px;
+}
+.nombreweb{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 5px;
+}
+form{
+  font-family: 'Poppins', sans-serif; 
+    font-weight:normal;
+    font-size: 13px;
+  color: #000;
+}

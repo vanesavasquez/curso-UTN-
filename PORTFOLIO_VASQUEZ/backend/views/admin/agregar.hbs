@@ -1,0 +1,29 @@
+<div class="row filaentradas">
+    <h3>Entrada Nueva</h3>
+
+    <div class="col-6 offset-3">
+        <form action="/admin/blog/agregar" method="post" class="row g-3">
+            <div class="col-md-12">
+                <label  class="form-label" placeholder="TITULO">Titulo</label>
+                <input type="text" class="form-control" name="titulo" >
+            </div>
+            <div class="col-md-12">
+                <label  class="form-label">Subtitulo</label>
+                <input type="text" class="form-control" name="subtitulo" >
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label" >Cuerpo</label>
+                <textarea class="form-control" aria-label="With textarea" rows="10" name="cuerpo"></textarea>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">PUBLICAR</button>
+            </div>
+        </form>
+        {{#if error}}
+            <div class="alert alert-primary" role="alert">
+                <p>{{message}} </p>
+            </div>
+        {{/if}}
+    </div>
+
+</div>

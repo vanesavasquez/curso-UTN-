@@ -1,10 +1,43 @@
 <div class="container">
-    <div class="row">
+    {{!-- fila de saludo y cierre dde sesion --}}
+    <div class="row fila1">
         <div class="col-md-8"></div>
         <div class="col-md-4 d-grid gap-2 d-md-flex justify-content-md-end">
             <p>hola {{usuario}}</p>
             <a href="/admin/login/logout" class="btn btn-secondary"  role="button" >Cerrar sesion</a>
         </div>
     </div>
+    {{!-- Fin de priemra fila --}}
 
+    {{!-- fila de titulo y agregar noticia --}}
+    <div class="row fila2">
+        <div class="col-7">
+            <h3>Todos las entradas del BLOG</h3>
+        </div>
+        <div class="col-5 text-end">
+            <a class="btn btn-success" href="#"><i class="far fa-arrow-alt-circle-right" ></i> Crear Nueva</a>
+            {{!-- no me toma los iconos cree el usuario en fontaweson y lo copie en el layout pero  --}}
+        </div>
+    </div>
+
+    {{!-- Fin de segunda fila --}}
+
+    {{!-- listar novedades y boton de editar --}}
+        <div class="row fila3">
+            <div class=" col-md-2"></div>
+            <div class=" col-md-8">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                        <div class="fw-bold">Titulo</div>
+                        subtitulo
+                        </div>
+                        <a href="#"><span class="badge bg-secondary rounded-pill"><i class="fas fa-pencil-alt"></i></span></a>
+                        <a href="#"><span class="badge bg-secondary rounded-pill"><i class="fas fa-trash-alt"></i></span></a>
+                    </li>                    
+                </ol>
+            </div>
+            <div class=" col-md-2"></div>            
+        </div>
+    {{!-- fin de tercer fila --}}
 </div>

@@ -32,3 +32,18 @@ a {
   .navbar{
   background-color:  white!important;
   }
+  .btn{
+    font-family: 'Poppins', sans-serif; 
+    font-weight:normal;
+    font-size: 13px;
+    color:#fff !important;
+  }
+  .fila2, .fila3{
+    padding-top: 4em;;
+  }
+  .badge{
+    padding:1em;  
+    size: 5px;
+    margin: auto;
+  }
+  

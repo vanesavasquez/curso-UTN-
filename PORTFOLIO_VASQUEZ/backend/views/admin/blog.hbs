@@ -29,13 +29,18 @@
                 <ol class="list-group list-group-numbered">
                     {{#each novedades}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <div class="ms-2 me-auto">
-                        <div class="fw-bold"> {{id}} {{titulo}}</div>
+                        <div class="col-7 ms-2 me-auto">
+                        <div class="fw-bold"> {{titulo}}</div>
+                        
                         {{subtitulo}}
                         </div>
+                        <div class=" col-3 fw-bold imagenblog"> {{{imagen}}}</div>
                         {{!--<div class="fw-bold">{{cuerpo}}</div> --}}
-                        <a href="/admin/blog/editar/{{id}}"><span class="badge bg-secondary rounded-pill"><i class="fas fa-pencil-alt"></i></span></a>
-                        <a href="/admin/blog/eliminar/{{id}}"><span class="badge bg-secondary rounded-pill"><i class="fas fa-trash-alt"></i></span></a>                       
+                        <div class="col-2 fw-bold">
+                            <a href="/admin/blog/editar/{{id}}"><span class="badge bg-secondary rounded-pill"><i class="fas fa-pencil-alt"></i></span></a>
+                            <a href="/admin/blog/eliminar/{{id}}"><span class="badge bg-secondary rounded-pill"><i class="fas fa-trash-alt"></i></span></a> 
+                        </div>
+                                              
                         
                     </li>
                     {{/each}}                   

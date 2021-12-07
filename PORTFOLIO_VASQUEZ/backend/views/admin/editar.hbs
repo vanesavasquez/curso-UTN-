@@ -2,7 +2,7 @@
     <h3>Entrada</h3> <h4>{{novedad.titulo}}</h4>
 
     <div class="col-6 offset-3">
-        <form action="/admin/blog/modificar" method="post" class="row g-3">
+        <form action="/admin/blog/modificar" method="post" enctype="multipart/form-data" class="row g-3">
             <input type="hidden" value="{{novedad.id}}" name="id">
             <div class="col-md-12">
                 <label  class="form-label" placeholder="TITULO">Titulo</label>
@@ -17,14 +17,15 @@
                 <textarea  class="form-control" aria-label="With textarea" rows="10" name="cuerpo">{{novedad.cuerpo}}</textarea>
             </div>
             <div class="col-12">
+               
                 <label class="input-group-text" for="inputGroupFile01">Subir imagen</label>
                 <input  name="imagen" type="file" class="form-control" id="imagen">
                 <br>
-                <input class="form-check-input" type="checkbox" value="1" id="img_delet" name="img_delet"  >
+                <input class="form-check-input" type="checkbox" value="1" id="img_delete" name="img_delete"  >
                 <label class="form-check-label" for="flexCheckDefault">
                     ¿Desea eliminar imagen actual?
                 </label>
-                <input type="hidden" value="{{novedad.img_id}}" name="imagen_original">
+                <input type="hidden" value="{{novedad.img_id}}" name="img_original">
             </div>
             
             <div class="col-12">

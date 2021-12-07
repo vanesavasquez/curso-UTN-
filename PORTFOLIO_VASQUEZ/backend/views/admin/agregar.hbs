@@ -2,7 +2,7 @@
     <h3>Entrada Nueva</h3>
 
     <div class="col-6 offset-3">
-        <form action="/admin/blog/agregar" method="post" class="row g-3">
+        <form action="/admin/blog/agregar" method="post" enctype="multipart/form-data" class="row g-3">
             <div class="col-md-12">
                 <label  class="form-label" placeholder="TITULO">Titulo</label>
                 <input type="text" class="form-control" name="titulo" >
@@ -14,6 +14,10 @@
             <div class="col-12">
                 <label for="inputAddress" class="form-label" >Cuerpo</label>
                 <textarea class="form-control" aria-label="With textarea" rows="10" name="cuerpo"></textarea>
+            </div>
+            <div class="input-group col-12">
+                <label class="input-group-text" for="inputGroupFile01">Subir imagen</label>
+                <input  name="imagen" type="file" class="form-control" id="imagen">
             </div>
             <div class="col-12">
                 <button type="submit" class="btn btn-primary">PUBLICAR</button>

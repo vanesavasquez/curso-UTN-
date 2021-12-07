@@ -15,4 +15,12 @@ async function insertNovedades(obj){
         throw error;
     }
 }
-module.exports= {getnovedades,insertNovedades}
+
+//eliminar las novedades
+
+async function deleteNovedadById(id) {
+    var query = "delete from novedades where id = ?";
+    var rows = await pool.query(query, [id]);
+    return rows;
+}
+module.exports= {getnovedades,insertNovedades, deleteNovedadById}

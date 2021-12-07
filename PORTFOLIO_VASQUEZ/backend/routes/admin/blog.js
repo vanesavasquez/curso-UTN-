@@ -47,4 +47,12 @@ router.post('/agregar', async function(req, res, next){
         })
     }
 })
+//elimino la entrada
+
+router.get('/eliminar/:id', async (req, res, next) => {
+    var id = req.params.id;
+
+    await novedadesModel.deleteNovedadById(id);
+    res.redirect('/admin/blog');
+});
 module.exports=router;

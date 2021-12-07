@@ -30,7 +30,14 @@ a {
        text-decoration:none !important; /* no me lo toma */
   }
   .navbar{
-  background-color:  white!important;
+    background-color:  white!important;
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+  .navbar-brand:hover{
+    color: #ffff00 !important;
+    font-family: 'Poppins', sans-serif; 
+    font-weight:bold;
   }
   .btn{
     font-family: 'Poppins', sans-serif; 
@@ -45,7 +52,9 @@ a {
     padding:1em;  
     size: 5px;
     margin: auto;
+    background-color: #ffff00 !important;
   }
+  
   .filaentradas{
     padding-top: 3rem;
 }
